@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
                 input_id.text.isNotBlank() && input_pass.text.isNotBlank() -> {
                     val intent = Intent(this, IntroducePage::class.java)
                     intent.putExtra("dataFromMainActivity", strData)
+                    Toast.makeText(this, "로그인 성공", Toast.LENGTH_SHORT).show()
                     startActivity(intent)
                 }
                 input_id.text.isBlank() && input_pass.text.isNotBlank() -> {
