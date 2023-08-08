@@ -128,13 +128,14 @@
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/IdView" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/close"
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
+        android:layout_width="264dp"
+        android:layout_height="55dp"
         android:layout_marginBottom="100dp"
-        android:background="@drawable/button_style"
+        android:background="@drawable/selector"
         android:text="Finish"
+        android:drawableStart="@drawable/image_selector"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
